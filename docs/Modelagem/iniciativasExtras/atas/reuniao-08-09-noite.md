@@ -6,6 +6,8 @@
 
 **Formato:** Remoto
 
+---
+
 ## Integrantes do grupo
 
 | Nome | Situação|
@@ -22,10 +24,11 @@
 | [Rodrigo](https://github.com/rodrigoFAmaral) | Ausente |
 | [Willian](https://github.com/Wooo589) | Presente |
 
+---
 
 ## Gravação da reunião
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gsG3rSolW_c?si=eDjGQU9Gn82AuDvM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+---
 
 ## Pautas discutidas em reunião
 
