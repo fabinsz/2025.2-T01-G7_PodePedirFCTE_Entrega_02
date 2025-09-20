@@ -18,6 +18,14 @@ Além desses componentes mais simples, para a conexão dos estados são utilizad
 
 # Diagramas Produzidos
 
+## Quadro de Participações
+
+| **Membro da equipe** | **Função** |
+| :------------- | :--------- |
+| [Luiz](https://github.com/luizfaria1989) | Documentação da página, desenvolvimento do diagrama de visualização do cliente e refatoração dos diagramas com o software Astah. |
+| [João](https://github.com/Joao151104) | Desenvolvimento do diagrama de visualização do resturante. |
+| [Rodrigo](https://github.com/rodrigoFAmaral) | Desenvolvimento do diagrama de visualização do entregador. |
+
 Para o desenvolvimento dos diagramas de estados, foi combinado com os integrantes do grupo que seriam desenvolvidos três diagramas diferentes que mostrem como será a visualização do cliente, restaurante e entregador quando um pedido for preparado e até ser entregue ao cliente.
 
 ## Visualização do Pedido para o Cliente
@@ -42,6 +50,14 @@ Para o desenvolvimento dos diagramas de estados, foi combinado com os integrante
 
 ## Visualização do Pedido para o Entregador
 
+<img class="card-img img-fluid rounded" src="../../DiagramasDeEstados/diagrama-de-estados-visualizacao-entregador.png" title="Diagrama de estados para a visualização do entregador" width=auto>
+
+<div  style="text-align: center">
+
+<font size="3">Autor: [Rodrigo](https://github.com/rodrigoFAmaral), 2025.</font>
+
+</div>
+
 ---
 
 # Referência Bibliográfica
@@ -57,3 +73,4 @@ Para o desenvolvimento dos diagramas de estados, foi combinado com os integrante
 | **Data**       | **Versão** | **Descrição**                         | **Autor**                                      | **Revisor**                                      | **Data da Revisão** |
 | :--------: | :----: | :-------------------------------- | :----------------------------------------: | :----------------------------------------: | :-------------: |
 | 20/09/2025 |  `1.0`   | Criação da página dos diagramas de estados e inserção dos primeiros diagramas. | [`@Luiz`](https://github.com/luizfaria1989) | [`@`](https://github.com/) |   00/00/0000    |
+| 20/09/2025 |  `1.1`   | Adiciona o diagrama de estados para a visualização do entregador e a tabela de contribuições. | [`@Luiz`](https://github.com/luizfaria1989) | [`@`](https://github.com/) |   00/00/0000    |
