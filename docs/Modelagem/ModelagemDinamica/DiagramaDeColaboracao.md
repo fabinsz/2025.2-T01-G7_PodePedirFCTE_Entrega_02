@@ -6,6 +6,15 @@ O diagrama de sequência é um tipo de diagrama da UML (Unified Modeling Languag
 
 Esse diagrama é muito útil para compreender o **fluxo de execução**, evidenciando a sequência temporal das interações.
 
+### Vantagens
+- Destaca a **estrutura da interação** entre os objetos.  
+- Útil para visualizar **relações organizacionais** dentro do sistema.  
+- Pode complementar o diagrama de sequência, oferecendo outra perspectiva.  
+
+### Desvantagens
+- Não evidencia bem o **fator temporal** das mensagens.  
+- Pode ser menos intuitivo para fluxos complexos de interação.  
+
 
 ## Diagrama
 
