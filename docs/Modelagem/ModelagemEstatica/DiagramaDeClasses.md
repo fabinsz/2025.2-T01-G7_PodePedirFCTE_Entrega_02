@@ -4,7 +4,10 @@
 
 O Diagrama de classes é usado para descrever a estrutura estática de classes no sistema, permitindo definir os atributos, operações(métodos) e os relacionamentos entre as classes.
 
-## Diagrama de Classes PodePedirFCTE
+## Diagrama de Classes
+Explicação do que é um diagrama de classes
+
+## Aplicação no projeto PodePedirFCTE
 
 O diagrama abaixo mostra a estrutura geral do sistema, evidenciando as relações e responsabilidades de cada componente.
 
@@ -12,11 +15,11 @@ O diagrama abaixo mostra a estrutura geral do sistema, evidenciando as relaçõe
   <img src="../../img/classes.svg" alt="Diagrama" width="800"/>
 </p>
 
-## Classes
+### Classes
 
 Após observar a visão geral, é importante detalhar cada classe individualmente. 
 
-### Usuário
+#### Usuário
 
 
 <img src="../../img/Classes/Usuário.svg" alt="Usuario" width="200"/>
@@ -24,81 +27,86 @@ Após observar a visão geral, é importante detalhar cada classe individualment
 ...
 
 
-### Aluno
+#### Aluno
 
 <img src="../../img/Classes/Aluno.svg" alt="Aluno" width="200"/>
 
 ...
 
-### Entregador
+#### Entregador
 
 <img src="../../img/Classes/Entregador.svg" alt="Entregador" width="200"/>
 
 ...
 
-### Pagamento
+#### Pagamento
 
 <img src="../../img/Classes/Pagamento.svg" alt="Pagamento" width="200"/>
 
 ...
 
-### Fornecedor
+#### Fornecedor
 
 <img src="../../img/Classes/Fornecedor.svg" alt="Fornecedor" width="200"/>
 
 ...
 
-### CartaoPagamento
+#### CartaoPagamento
 
 <img src="../../img/Classes/CartaoPagamento.svg" alt="CartaoPagamento" width="200"/>
 
 ...
 
-### Enum_Tipo
+#### Enum_Tipo
 
 <img src="../../img/Classes/Enum_Tipo.svg" alt="Enum Tipo" width="200"/>
 
 ...
 
-### Enum_Status_pagamento
+#### Enum_Status_pagamento
 
 <img src="../../img/Classes/Enum_Status_Pagamento.svg" alt="Status pagamento" width="200"/>
 
 ...
 
-### Enum_Status_Entrega
+#### Enum_Status_Entrega
 
 <img src="../../img/Classes/Enum_Status_Entrega.svg" alt="Status entrega" width="200"/>
 
 ...
 
-### Enum_Tipo_Pagamento
+#### Enum_Tipo_Pagamento
 
 <img src="../../img/Classes/Enum_Tipo_Pagamento.svg" alt="tipo pagamento" width="200"/>
 
 ...
 
 
-### Cardapio
+#### Cardapio
 
 <img src="../../img/Classes/Cardapio.svg" alt="Cardapio" width="200"/>
 
 ...
 
-### item
+#### Item
 
 <img src="../../img/Classes/item.svg" alt="item" width="200"/>
 
 ...
 
-### Pedido
+#### Pedido
 
 <img src="../../img/Classes/Pedido.svg" alt="Pedido" width="200"/>
 
 ...
 
+## Referências
+
+> 
+
 ## Histórico de Versões
 
 | **Data**       | **Versão** | **Descrição**                         | **Autor**                                      | **Revisor**                                      | **Data da Revisão** |
 | :--------: | :----: | :-------------------------------- | :----------------------------------------: | :----------------------------------------: | :-------------: |
-| 21/09/2025 |  `1.0`   | Criação da página do diagrama de classes. | [`@Fabinsz`](https://github.com/fabinsz) | [`@`](https://github.com/) |   00/00/0000    |
+| 21/09/2025 |  `1.0`   | Criação da página do diagrama de classes. | [`@Fabinsz`](https://github.com/fabinsz) | [`@Ana Clara`](https://github.com/anabborges) |   21/09/2025    |
+| 21/09/2025 |  `1.1`   | Ajusta o documento para conformidade com o modelo. | [`@Ana Clara`](https://github.com/fabinsz) | [`@`](https://github.com/) |   00/00/0000    |
