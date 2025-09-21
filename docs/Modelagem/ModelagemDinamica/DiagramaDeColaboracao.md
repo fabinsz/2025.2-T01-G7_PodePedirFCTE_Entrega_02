@@ -2,7 +2,10 @@
 
 ## Introdução
 
-O diagrama de colaboração é 
+O diagrama de sequência é um tipo de diagrama da UML (Unified Modeling Language) utilizado para representar a interação entre objetos em um determinado cenário de uso do sistema. Ele mostra a ordem em que as mensagens são trocadas e como os objetos colaboram para realizar uma funcionalidade específica.  
+
+Esse diagrama é muito útil para compreender o **fluxo de execução**, evidenciando a sequência temporal das interações.
+
 
 ## Diagrama
 
@@ -48,6 +51,8 @@ A interação Fazer Pedido conta com os seguintes componentes:
 > FAKHROUTDINOV, Klirill. UML Communication Diagrams Overview. **uml-diagrams.org**, 2009. Disponível em: https://www.uml-diagrams.org/communication-diagrams.html. **Acesso em 20 set. 2025.**
 
 > IBM. Communication diagrams. **IBM Developer**, fev.2023. Disponivel em: https://www.ibm.com/docs/en/dma?topic=diagrams-communication. **Acesso em: 20 set. 2025.**
+
+> 
 
 ---
 
