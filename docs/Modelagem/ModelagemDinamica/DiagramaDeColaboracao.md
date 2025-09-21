@@ -22,13 +22,9 @@ Esse diagrama é muito útil para compreender o **fluxo de execução**, evidenc
 
 | **Nome do Componente** | **Significado** | **Representação** |
 | :--------------------- | : ------------- | : --------------- |
-|  |  | |
-
-
-![Diagrama de colaboração do projeto PodePedirFCTE](../assets/#)
-<div align="center">
-<strong>Figura 1</strong> – Diagrama de colaboração do projeto PodePedirFCTE.
-</div>
+| Frame | Representa o fluxo de uma interação | ![Frame](../../assets/frame.png) |
+| Lifeline | Elemento nomeado que representa um participante individual na interação | ![Lifeline](../../assets/lifeline.png) |
+| Message | Uma linha de expressão sequencial com uma seta que indica a direção da comunicação | ![Message](../../assets/message.png) |
 
 ## Aplicação no projeto
 
@@ -40,7 +36,7 @@ O diagrama de colaboração foi criado pensando em algumas das interações que 
 <strong>Figura 1</strong> – Interação Fazer Pedido - <a href="https://github.com/anabborges">Ana Clara</a>
 </div>
 
-A interação Fazer Pedido conta com os seguintes componentes:
+A interação Fazer Pedido conta com os seguintes elementos (lifelines):
 - **:Comprador**: O usuário que está fazendo o pedido.
 
 - **:Interface do Comprador**: A aplicação frontend no dispositivo do comprador.
@@ -61,7 +57,7 @@ A interação Fazer Pedido conta com os seguintes componentes:
 <strong>Figura 2</strong> – Interação Entregador - Storch
 </div>
 
-A interação Fazer Pedido conta com os seguintes componentes:
+A interação entregarPedido conta com as seguintes mensagens:
 
 **1. Notificar Pedido Disponível**
 - O sistema envia a notificação de um novo pedido para a interface do entregador.
@@ -93,6 +89,13 @@ A interação Fazer Pedido conta com os seguintes componentes:
 **10. Liberar Repasses**
 -  O sistema aciona o processo de pagamento para o entregador e o fornecedor.
 
+## Quadro de Participações
+
+| **Membro da equipe** | **Função** |
+| :------------- | :--------- |
+| [Ana Clara](https://github.com/anabborges) | Interação Fazer Pedido e Tabela de Elementos |
+| [Guilherme Storch](https://github.com/storch7) | Interação de Entregar Pedido e Introdução |
+| [Willian Wagner](https://github.com/Wooo589) |  |
 
 ## Referências Bibliográficas
 
@@ -116,4 +119,5 @@ A interação Fazer Pedido conta com os seguintes componentes:
 | :--------: | :----: | :-------------------------------- | :----------------------------------------: | :----------------------------------------: | :-------------: |
 | 20/09/2025 |  `1.0`   | Criação da página do diagrama de colaboração. | [`@Willian`](https://github.com/Wooo589) | [`@Ana Clara`](https://github.com/anabborges) |   21/09/2025    |
 | 21/09/2025 |  `1.1`   | Adiciona Interação Fazer Pedido. | [`@Ana Clara`](https://github.com/anabborges) | [`@`](https://github.com/) |   00/00/0000    |
-| 21/09/2025 |  `1.2`   | Adiciona Interação do Entregador e Introdução | [`@Guilherme Storch`](https://github.com/storch7) | [`@`](https://github.com/) |   00/00/0000    |
+| 21/09/2025 |  `1.2`   | Adiciona Interação do Entregador e Introdução | [`@Guilherme Storch`](https://github.com/storch7) | [`@Ana Clara`](https://github.com/anabborges) |   00/00/0000    |
+| 21/09/2025 |  `1.3`   | Adiciona Tabela de Elementos e de Contribuição. | [`@Ana Clara`](https://github.com/anabborges) | [`@`](https://github.com/) |   00/00/0000    |
