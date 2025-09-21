@@ -33,20 +33,23 @@ Após observar a visão geral, é importante detalhar cada classe individualment
 
 <img src="../../img/Classes/Usuário.svg" alt="Usuario" width="200"/>
 
-...
+- A classe Usuário é pai das classes Aluno, Entregador, Fornecedor;
+- A classe possui os atributos necessários entre todos as classes-filho para que um usuário tenha uma conta no sistema;
 
 
 #### Aluno
 
 <img src="../../img/Classes/Aluno.svg" alt="Aluno" width="200"/>
 
-...
+- A classe Aluno é herdeira da classe Usuário;
+- Ela possui atributos necessários para criar uma conta especificamente de Aluno;
 
 #### Entregador
 
 <img src="../../img/Classes/Entregador.svg" alt="Entregador" width="200"/>
 
-...
+- A classe Entregador é herdeira da classe Usuário;
+- Ela possui atributos necessários para criar uma conta especificamente de Entregador;
 
 #### Pagamento
 
@@ -58,7 +61,8 @@ Após observar a visão geral, é importante detalhar cada classe individualment
 
 <img src="../../img/Classes/Fornecedor.svg" alt="Fornecedor" width="200"/>
 
-...
+- A classe Fornecedor é herdeira da classe Usuário;
+- Ela possui atributos necessários para criar uma conta especificamente de Fornecedor;
 
 #### CartaoPagamento
 
@@ -122,3 +126,4 @@ Após observar a visão geral, é importante detalhar cada classe individualment
 | 21/09/2025 |  `1.0`   | Criação da página do diagrama de classes. | [`@Fabinsz`](https://github.com/fabinsz) | [`@Ana Clara`](https://github.com/anabborges) |   21/09/2025    |
 | 21/09/2025 |  `1.1`   | Ajusta o documento para conformidade com o modelo. | [`@Ana Clara`](https://github.com/anabborges) | [`@`](https://github.com/) |   00/00/0000    |
 | 21/09/2025 |  `1.2`   | Adiciona explicação sobre o Diagrama de Classes e referências. | [`@Ana Clara`](https://github.com/anabborges) | [`@`](https://github.com/) |   00/00/0000    |
+| 21/09/2025 |  `1.3`   | Adiciona explicação das classes Usuário, Aluno, Entregador e Fornecedor | [`@Ana Clara`](https://github.com/anabborges) | [`@`](https://github.com/) |   00/00/0000    |
