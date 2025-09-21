@@ -77,3 +77,4 @@ A interação Fazer Pedido conta com os seguintes componentes:
 | :--------: | :----: | :-------------------------------- | :----------------------------------------: | :----------------------------------------: | :-------------: |
 | 20/09/2025 |  `1.0`   | Criação da página do diagrama de colaboração. | [`@Willian`](https://github.com/Wooo589) | [`@Ana Clara`](https://github.com/anabborges) |   21/09/2025    |
 | 21/09/2025 |  `1.1`   | Adiciona Interação Fazer Pedido. | [`@Ana Clara`](https://github.com/anabborges) | [`@`](https://github.com/) |   00/00/0000    |
+| 21/09/2025 |  `1.2`   | Complementação da sessão com introdução e demais informações | [`@Guilherme Storch`](https://github.com/storch7) | [`@`](https://github.com/) |   00/00/0000    |
