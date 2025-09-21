@@ -24,6 +24,12 @@ Esse diagrama é muito útil para compreender o **fluxo de execução**, evidenc
 | :--------------------- | : ------------- | : --------------- |
 |  |  | |
 
+
+![Diagrama de colaboração do projeto PodePedirFCTE](../assets/#)
+<div align="center">
+<strong>Figura 1</strong> – Diagrama de colaboração do projeto PodePedirFCTE.
+</div>
+
 ## Aplicação no projeto
 
 O diagrama de colaboração foi criado pensando em algumas das interações que serão necessárias no projeto PodePedirFCTE.
@@ -49,11 +55,44 @@ A interação Fazer Pedido conta com os seguintes componentes:
 
 - **:Interface do Entregador**: A aplicação frontend usada pelo motorista de entrega.
 
-
-![Diagrama de colaboração do projeto PodePedirFCTE](../assets/#)
+### Interação Entregador
+![Diagrama de colaboração do projeto PodePedirFCTE](../../assets/Diagrama%20de%20Colaboração-Entregador.png)
 <div align="center">
-<strong>Figura 1</strong> – Diagrama de colaboração do projeto PodePedirFCTE.
+<strong>Figura 2</strong> – Interação Entregador - Storch
 </div>
+
+A interação Fazer Pedido conta com os seguintes componentes:
+
+**1. Notificar Pedido Disponível**
+- O sistema envia a notificação de um novo pedido para a interface do entregador.
+
+**2. Aceitar Pedido**
+- O entregador aceita o pedido pelo aplicativo.
+
+**3. Confirmar Aceite**
+- O sistema atribui o pedido ao entregador e confirma a ação.
+
+**4. Atualizar Status ("Em entrega")**
+- O status do pedido é atualizado para "Em entrega".
+
+**5. Notificar Status ("Pedido em rota")**
+- O comprador é notificado de que o pedido está a caminho.
+
+**6. Confirmar Entrega**
+- O entregador confirma a entrega no aplicativo.
+
+**7. Registrar Entrega**
+- O sistema registra a entrega e as evidências no banco de dados.
+
+**8. Atualizar Status ("Entregue")**
+- O status do pedido é finalizado como "Entregue".
+
+**9. Notificar Confirmação ("Pedido entregue")**
+-  O comprador e o fornecedor são notificados de que o pedido foi entregue.
+
+**10. Liberar Repasses**
+-  O sistema aciona o processo de pagamento para o entregador e o fornecedor.
+
 
 ## Referências Bibliográficas
 
@@ -77,4 +116,4 @@ A interação Fazer Pedido conta com os seguintes componentes:
 | :--------: | :----: | :-------------------------------- | :----------------------------------------: | :----------------------------------------: | :-------------: |
 | 20/09/2025 |  `1.0`   | Criação da página do diagrama de colaboração. | [`@Willian`](https://github.com/Wooo589) | [`@Ana Clara`](https://github.com/anabborges) |   21/09/2025    |
 | 21/09/2025 |  `1.1`   | Adiciona Interação Fazer Pedido. | [`@Ana Clara`](https://github.com/anabborges) | [`@`](https://github.com/) |   00/00/0000    |
-| 21/09/2025 |  `1.2`   | Complementação da sessão com introdução e demais informações | [`@Guilherme Storch`](https://github.com/storch7) | [`@`](https://github.com/) |   00/00/0000    |
+| 21/09/2025 |  `1.2`   | Adiciona Interação do Entregador e Introdução | [`@Guilherme Storch`](https://github.com/storch7) | [`@`](https://github.com/) |   00/00/0000    |
