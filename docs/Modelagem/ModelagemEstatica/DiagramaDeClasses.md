@@ -76,7 +76,7 @@ Após observar a visão geral, é importante detalhar cada classe individualment
 
 ...
 
-#### Enum_Status_pagamento
+#### Enum_Status_Pagamento
 
 <img src="../../img/Classes/Enum_Status_Pagamento.svg" alt="Status pagamento" width="200"/>
 
@@ -86,7 +86,8 @@ Após observar a visão geral, é importante detalhar cada classe individualment
 
 <img src="../../img/Classes/Enum_Status_Entrega.svg" alt="Status entrega" width="200"/>
 
-...
+- A classe Enum_Status_Entrega é um enum e possui instâncias fixas;
+- A classe representa os possíveis status que uma entrega pode se encontrar.
 
 #### Enum_Tipo_Pagamento
 
@@ -105,13 +106,23 @@ Após observar a visão geral, é importante detalhar cada classe individualment
 
 <img src="../../img/Classes/item.svg" alt="item" width="200"/>
 
-...
+- A classe Item representa cada itens do cardápio dos restaurantes;
+- Os atributos dela representam informações que o fornecedr informará ao sistema para instânciar um objeto dela.
 
 #### Pedido
 
 <img src="../../img/Classes/Pedido.svg" alt="Pedido" width="200"/>
 
-...
+- A classe Pedido representa os pedidos que são feitos pelos compradores;
+- Ela possui atributos de interesse dos compradores.
+
+## Quadro de Participações
+
+| **Membro da equipe** | **Função** |
+| :------------- | :--------- |
+| [Ana Clara](https://github.com/anabborges) | Autora do diagrama e detalhamento de classes na documentação|
+| [Fábio](https://github.com/fabinsz) | Documentação da metodologia |
+| [Guilherme Storch](https://github.com/storch7) | Autor do diagrama |
 
 ## Referências
 
@@ -127,3 +138,4 @@ Após observar a visão geral, é importante detalhar cada classe individualment
 | 21/09/2025 |  `1.1`   | Ajusta o documento para conformidade com o modelo. | [`@Ana Clara`](https://github.com/anabborges) | [`@`](https://github.com/) |   00/00/0000    |
 | 21/09/2025 |  `1.2`   | Adiciona explicação sobre o Diagrama de Classes e referências. | [`@Ana Clara`](https://github.com/anabborges) | [`@`](https://github.com/) |   00/00/0000    |
 | 21/09/2025 |  `1.3`   | Adiciona explicação das classes Usuário, Aluno, Entregador e Fornecedor | [`@Ana Clara`](https://github.com/anabborges) | [`@`](https://github.com/) |   00/00/0000    |
+| 21/09/2025 |  `1.4`   | Adiciona explicação das classes Enum_Status_Entrega, Pedido e Item | [`@Ana Clara`](https://github.com/anabborges) | [`@`](https://github.com/) |   00/00/0000    |
