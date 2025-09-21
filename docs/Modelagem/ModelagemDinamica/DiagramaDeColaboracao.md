@@ -61,7 +61,13 @@ A interação Fazer Pedido conta com os seguintes componentes:
 
 > IBM. Communication diagrams. **IBM Developer**, fev.2023. Disponivel em: https://www.ibm.com/docs/en/dma?topic=diagrams-communication. **Acesso em: 20 set. 2025.**
 
-> 
+> OMG. UML 2.5 Specification. Disponível em: https://www.omg.org/spec/UML/2.5.  
+
+> GOOGLE. Phase 3: Sketch. Disponível em: https://designsprintkit.withgoogle.com/methodology/phase3-sketch.  
+
+> GUEDES, Gilleanes T. A. *UML 2: Uma abordagem prática*. 2. ed. São Paulo: Novatec, 2011.  
+
+> LARMAN, Craig. *Utilizando UML e Padrões: uma introdução à análise e ao projeto orientados a objetos e ao desenvolvimento iterativo*. 3. ed. Porto Alegre: Bookman, 2007.  
 
 ---
 
