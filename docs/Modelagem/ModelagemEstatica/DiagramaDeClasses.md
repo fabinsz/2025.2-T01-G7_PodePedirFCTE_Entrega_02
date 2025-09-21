@@ -5,7 +5,16 @@
 O Diagrama de classes é usado para descrever a estrutura estática de classes no sistema, permitindo definir os atributos, operações(métodos) e os relacionamentos entre as classes.
 
 ## Diagrama de Classes
-Explicação do que é um diagrama de classes
+O Diagrama de Classes é um dos tipos mais importantes e populares da Linguagem de Modelagem Unificada (UML). Ele é um diagrama de estrutura, ou seja, o seu principal objetivo é descrever a estrutura estática de um sistema, mostrando os elementos que devem estar presentes e como eles se relacionam entre si.
+
+O diagrama funciona como uma "cópia" do sistema ou de seus componentes. Ele é fundamental na programação orientada a objetos, porque modela as classes que formarão o software a ser desenvolvido, os seus objetos principais e as interações entre eles.
+
+### Vantagens
+O uso de diagramas de classes traz vantagens importantes para uma organização, pois eles permitem:
+- Modelar e Compreender Dados
+- Melhorar a Comunicação
+- Orientar o Desenvolvimento do projeto
+- Criar uma Visão Abstrata
 
 ## Aplicação no projeto PodePedirFCTE
 
@@ -102,11 +111,14 @@ Após observar a visão geral, é importante detalhar cada classe individualment
 
 ## Referências
 
-> 
+> Lucidchart. O que é um diagrama de classe UML?. Disponível em: https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml.
+
+> IBM. Diagrama de Classes. Disponível em: https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=structure-class-diagrams.
 
 ## Histórico de Versões
 
 | **Data**       | **Versão** | **Descrição**                         | **Autor**                                      | **Revisor**                                      | **Data da Revisão** |
 | :--------: | :----: | :-------------------------------- | :----------------------------------------: | :----------------------------------------: | :-------------: |
 | 21/09/2025 |  `1.0`   | Criação da página do diagrama de classes. | [`@Fabinsz`](https://github.com/fabinsz) | [`@Ana Clara`](https://github.com/anabborges) |   21/09/2025    |
-| 21/09/2025 |  `1.1`   | Ajusta o documento para conformidade com o modelo. | [`@Ana Clara`](https://github.com/fabinsz) | [`@`](https://github.com/) |   00/00/0000    |
+| 21/09/2025 |  `1.1`   | Ajusta o documento para conformidade com o modelo. | [`@Ana Clara`](https://github.com/anabborges) | [`@`](https://github.com/) |   00/00/0000    |
+| 21/09/2025 |  `1.2`   | Adiciona explicação sobre o Diagrama de Classes e referências. | [`@Ana Clara`](https://github.com/anabborges) | [`@`](https://github.com/) |   00/00/0000    |
