@@ -27,6 +27,7 @@ Além desses componentes mais simples, para a conexão dos estados são utilizad
 | [João](https://github.com/Joao151104) | Desenvolvimento do diagrama de visualização do resturante. |
 | [Rodrigo](https://github.com/rodrigoFAmaral) | Desenvolvimento do diagrama de visualização do entregador. |
 | [Fabio](https://github.com/fabinsz) | Ajustes e desenvolvimento na documentação da página. |
+| [Cayo](https://github.com/Cayoalencar) | Desenvolvimento do diagrama de ciclo de vida de uma conta de usuário no app. |
 
 Para o desenvolvimento dos diagramas de estados, foi combinado com os integrantes do grupo que seriam desenvolvidos três diagramas diferentes que mostrem como será a visualização do cliente, restaurante e entregador quando um pedido for preparado e até ser entregue ao cliente.
 
@@ -151,6 +152,38 @@ O diagrama mostra como o pedido se move entre os estados com base em eventos esp
 
 - **Alternância de Status:** O entregador pode alternar entre os estados Disponível e Offline a qualquer momento, o que permite controlar quando ele está apto a receber pedidos.
 
+## Visualização do Ciclo de Vida de uma Conta de Usuário no App
+
+Por fim, foi desenvolvido um último diagrama que tem como objetivo representar qual é o ciclo de vida de uma conta de usuário ao utilizar o aplicativo.
+
+<img class="card-img img-fluid rounded" src="../../DiagramasDeEstados/diagrama-de-estados-conta.png" title="Diagrama de estados para a visualização do Ciclo de Vida de uma Conta de Usuário no App" width=auto>
+
+<div  style="text-align: center">
+
+<font size="3">Autor: [Cayo](https://github.com/Cayoalencar), 2025.</font>
+
+</div>
+
+### Estados da Conta
+
+- **Aguardando confirmação de cadastro:** Ocorre quando uma nova conta está prestes a ser criada, mas ainda precisa de um código de verificação para que a conta seja concluída com sucesso.
+
+- **Ativa:** Representa uma conta padrão no aplicativo, que pode funcionar tanto para um cliente já apto a fazer pedidos no aplicativo, como um restaurante, pronto para aceitar pedidos ou pode funcionar como uma conta de entregador, já estando disponível para fazer entregas de restaurantes até a FCTE.
+
+- **Aguardando confirmação de cancelamento:** Representa uma conta que está prestes a ser desativada pelo usuário, mas que ainda precisa de uma código de verificação para que a conta seja cancelada com sucesso.
+
+- **Inativa:** Representa uma conta padrão no aplicativo, seus dados ainda estão armazenados no banco de dados, mas não pode ser utilizada pelo usuário, seja ele cliente, restaurante ou entregador.
+
+### Transições e Eventos
+
+- **Confirma cadastro via token de email:** É o evento de transição responsável por transformar uma conta que está prestes a ser criada a uma conta já ativa no aplicativo, podendo ser utilizada por qualquer um dos três tipos de usuário.
+
+- **Solicita cancelamento de conta:** É um evento que é solicitado pelo usuário quando ele deseja que sua conta seja excluída.
+
+- **Confirma cancelamento via token de email:** É o evento de transição responsável por transformar uma conta ativa em uma conta inativa no aplicativo, ele é ativado pelo próprio usuário da conta ao digitar o token de email em seu app.
+
+- **Conta cancelada:** É o evento que transforma uma conta inativa em uma conta excluída pelo aplicativo, uma conta que já foi excluída pelo aplicativo não apresenta suas informações no banco de dados.
+
 ---
 
 # Referência Bibliográfica
@@ -167,4 +200,5 @@ O diagrama mostra como o pedido se move entre os estados com base em eventos esp
 | :--------: | :----: | :-------------------------------- | :----------------------------------------: | :----------------------------------------: | :-------------: |
 | 20/09/2025 |  `1.0`   | Criação da página dos diagramas de estados e inserção dos primeiros diagramas. | [`@Luiz`](https://github.com/luizfaria1989) | [`@`](https://github.com/) |   00/00/0000    |
 | 20/09/2025 |  `1.1`   | Adiciona o diagrama de estados para a visualização do entregador e a tabela de contribuições. | [`@Luiz`](https://github.com/luizfaria1989) | [`@`](https://github.com/) |   00/00/0000    |
-| 21/09/2025 |  `1.2`   | Adiciona conteúdo descrevendo os diagramas de estados propostos e ajuste na tabela de componentes | [`@Fabio`](https://github.com/fabinsz) | [`@`](https://github.com/) |   00/00/0000    |
+| 21/09/2025 |  `1.2`   | Adiciona conteúdo descrevendo os diagramas de estados propostos e ajuste na tabela de componentes | [`@Fabio`](https://github.com/fabinsz) | [`@Luiz`](https://github.com/luizfaria1989) |  21/09/2025    |
+| 21/09/2025 |  `1.3`   | Adiciona o diagrama de ciclo de vida de uma conta de usuário no app. | [`@Luiz`](https://github.com/luizfaria1989) | [`@`](https://github.com/) |   00/00/0000    |
