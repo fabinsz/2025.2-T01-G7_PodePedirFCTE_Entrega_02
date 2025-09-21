@@ -55,7 +55,9 @@ Após observar a visão geral, é importante detalhar cada classe individualment
 
 <img src="../../img/Classes/Pagamento.svg" alt="Pagamento" width="200"/>
 
-...
+- Classe que gerencia o processo de pagamento entre fornecedores e alunos;
+- A Classe Aluno se relaciona com a Classe Pagamento por Agregação;
+- A Classe Fornecedor se relaciona com a Classe Pagamento por Agregação.
 
 #### Fornecedor
 
@@ -68,19 +70,20 @@ Após observar a visão geral, é importante detalhar cada classe individualment
 
 <img src="../../img/Classes/CartaoPagamento.svg" alt="CartaoPagamento" width="200"/>
 
-...
+- Classe que se relaciona com a Classe Aluno por Agregação;
+- O objetivo é armazenar uma listagem de Cartões que um aluno venha ter.
 
 #### Enum_Tipo
 
 <img src="../../img/Classes/Enum_Tipo.svg" alt="Enum Tipo" width="200"/>
 
-...
+- Enumeration que encapsula as tipologias de cartões;
 
 #### Enum_Status_Pagamento
 
 <img src="../../img/Classes/Enum_Status_Pagamento.svg" alt="Status pagamento" width="200"/>
 
-...
+- Enumeration que encapsula os status de pagamento;
 
 #### Enum_Status_Entrega
 
@@ -93,21 +96,22 @@ Após observar a visão geral, é importante detalhar cada classe individualment
 
 <img src="../../img/Classes/Enum_Tipo_Pagamento.svg" alt="tipo pagamento" width="200"/>
 
-...
+- Enumeration que encapsula os tipos de pagamento;
 
 
 #### Cardapio
 
 <img src="../../img/Classes/Cardapio.svg" alt="Cardapio" width="200"/>
 
-...
+- A classe Cardápio representa os Cardapios que um fornecedor pode cadastrar no aplicativo;
+- Os atributos dela representam informações que o fornecedor apresentará ao sistema para instânciar um objeto.
 
 #### Item
 
 <img src="../../img/Classes/item.svg" alt="item" width="200"/>
 
 - A classe Item representa cada itens do cardápio dos restaurantes;
-- Os atributos dela representam informações que o fornecedr informará ao sistema para instânciar um objeto dela.
+- Os atributos dela representam informações que o fornecedor apresentará ao sistema para instânciar um objeto.
 
 #### Pedido
 
@@ -135,7 +139,8 @@ Após observar a visão geral, é importante detalhar cada classe individualment
 | **Data**       | **Versão** | **Descrição**                         | **Autor**                                      | **Revisor**                                      | **Data da Revisão** |
 | :--------: | :----: | :-------------------------------- | :----------------------------------------: | :----------------------------------------: | :-------------: |
 | 21/09/2025 |  `1.0`   | Criação da página do diagrama de classes. | [`@Fabinsz`](https://github.com/fabinsz) | [`@Ana Clara`](https://github.com/anabborges) |   21/09/2025    |
-| 21/09/2025 |  `1.1`   | Ajusta o documento para conformidade com o modelo. | [`@Ana Clara`](https://github.com/anabborges) | [`@`](https://github.com/) |   00/00/0000    |
-| 21/09/2025 |  `1.2`   | Adiciona explicação sobre o Diagrama de Classes e referências. | [`@Ana Clara`](https://github.com/anabborges) | [`@`](https://github.com/) |   00/00/0000    |
-| 21/09/2025 |  `1.3`   | Adiciona explicação das classes Usuário, Aluno, Entregador e Fornecedor | [`@Ana Clara`](https://github.com/anabborges) | [`@`](https://github.com/) |   00/00/0000    |
-| 21/09/2025 |  `1.4`   | Adiciona explicação das classes Enum_Status_Entrega, Pedido e Item | [`@Ana Clara`](https://github.com/anabborges) | [`@`](https://github.com/) |   00/00/0000    |
+| 21/09/2025 |  `1.1`   | Ajusta o documento para conformidade com o modelo. | [`@Ana Clara`](https://github.com/anabborges) | [`@Guilherme Storch`](https://github.com/storch7) |   21/09/2025    |
+| 21/09/2025 |  `1.2`   | Adiciona explicação sobre o Diagrama de Classes e referências. | [`@Ana Clara`](https://github.com/anabborges) | [`@Guilherme Storch`](https://github.com/storch7) |   21/09/2025    |
+| 21/09/2025 |  `1.3`   | Adiciona explicação das classes Usuário, Aluno, Entregador e Fornecedor | [`@Ana Clara`](https://github.com/anabborges) | [`@Guilherme Storch`](https://github.com/storch7) |   21/09/2025    |
+| 21/09/2025 |  `1.4`   | Adiciona explicação das classes Enum_Status_Entrega, Pedido e Item | [`@Ana Clara`](https://github.com/anabborges) | [`@Guilherme Storch`](https://github.com/storch7) |   21/09/2025    |
+| 21/09/2025 |  `1.5`   | Adiciona explicação de classes e revisão geral. | [`@Guilherme Storch`](https://github.com/anabborges) | [`@Guilherme Storch`](https://github.com/storch7) |   21/09/2025    |
