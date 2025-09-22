@@ -170,4 +170,4 @@ A interação **SolicitarPedido** conta com os seguintes elementos e mensagens:
 | 21/09/2025 |  `1.1`   | Adiciona Interação Fazer Pedido. | [`@Ana Clara`](https://github.com/anabborges) | [`@Willian`](https://github.com/Wooo589) |   21/09/2025    |
 | 21/09/2025 |  `1.2`   | Adiciona Interação do Entregador e Introdução | [`@Guilherme Storch`](https://github.com/storch7) | [`@Ana Clara`](https://github.com/anabborges) |   21/09/2025    |
 | 21/09/2025 |  `1.3`   | Adiciona Tabela de Elementos e de Contribuição. | [`@Ana Clara`](https://github.com/anabborges) | [`@Willian`](https://github.com/Wooo589) |   21/09/2025    |
-| 21/09/2025 |  `1.4`   | Adiciona Interação Solicitar Pedido. | [`@Willian`](https://github.com/Wooo589) | [`@`](https://github.com/) |   00/00/0000    |
+| 21/09/2025 |  `1.4`   | Adiciona Interação Solicitar Pedido. | [`@Willian`](https://github.com/Wooo589) | [`@Ana Clara`](https://github.com/anabborges) |   21/09/2025    |
