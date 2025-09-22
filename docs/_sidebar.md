@@ -19,3 +19,7 @@
       - [2.3.2. Diagrama de Casos de Uso](/Modelagem/ModelagemOrganizacional/DiagramaDeCasosDeUso.md)
     - [2.4. Participações - Modelagem](/Modelagem/2.4.ParticipacoesModelagem.md)
     - [2.5. Iniciativas Extras - Modelagem](/Modelagem/2.5.IniciativasExtras.md)
+      - 2.5.1. Atas de Reunião
+        - [2.5.1.1. Reunião 08/09](Modelagem/iniciativasExtras/atas/reuniao-08-09-noite.md)
+        - [2.5.1.2. Reunião 15/09](Modelagem/iniciativasExtras/atas/reuniao-15-09-noite.md)
+      - [2.5.2 Ferramentas Utilizadas](Modelagem/iniciativasExtras/ferramentas-utilizadas)
