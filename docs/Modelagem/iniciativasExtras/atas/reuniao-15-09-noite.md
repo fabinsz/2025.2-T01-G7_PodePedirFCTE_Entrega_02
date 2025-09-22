@@ -26,10 +26,6 @@
 
 ---
 
-## Gravação da reunião
-
----
-
 ## Pautas discutidas em reunião
 
 | Nº da pauta | Item                        | Descrição                                                                                     | Responsável                    | Status              |
