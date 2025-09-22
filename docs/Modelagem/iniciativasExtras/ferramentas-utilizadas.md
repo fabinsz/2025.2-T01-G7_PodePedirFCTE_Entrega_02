@@ -44,4 +44,4 @@ Este aterfato é destinado a compilar as ferramentas utilizadas ao longo do dese
 
 | **Data**       | **Versão** | **Descrição**                         | **Autor**                                      | **Revisor**                                      | **Data da Revisão** |
 | :--------: | :----: | :-------------------------------- | :----------------------------------------: | :----------------------------------------: | :-------------: |
-| 21/09/2025 |  `1.0`   | Criação do artefato de ferramentas utilizadas e adição das ferramentas. | [`@Luiz`](https://github.com/luizfaria1989) | [`@`](https://github.com/) |   00/00/0000    |
+| 21/09/2025 |  `1.0`   | Criação do artefato de ferramentas utilizadas e adição das ferramentas. | [`@Luiz`](https://github.com/luizfaria1989) | [`@Ana Clara`](https://github.com/anabborges) |   21/09/2025    |
